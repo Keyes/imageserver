@@ -1,0 +1,26 @@
+{
+  "name": "imageserver",
+  "version": "1.0.0",
+  "description": "Imageserver to process and resize images on the fly",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "server",
+    "imageserver",
+    "resize",
+    "scale",
+    "crop",
+    "process"
+  ],
+  "author": "Julian Kern <mail@juliankern.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "glob": "^7.1.2",
+    "node-persist": "^2.1.0",
+    "sharp": "^0.18.4"
+  }
+}
